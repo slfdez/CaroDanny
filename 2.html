@@ -1,0 +1,521 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Caro & Danny</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/YouTubePopUp.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
+    <!-- Progress-wrapp scroll-button -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper navbar-brand valign">
+                <div class="logo">
+                    <a href="index.html">
+                        <h2>Caro &amp; Danny</h2>
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="icon-bar"><i class="ti-line-double"></i></span> </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home" data-scroll-nav="0">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery" data-scroll-nav="5">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#whenwhere" data-scroll-nav="6">Cuándo y Dónde?</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#outfit" data-scroll-nav="3">Vestimenta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp" data-scroll-nav="7">Reserva</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gift" data-scroll-nav="8">Regalos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rsvp2" data-scroll-nav="9">Nota</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Slider section -->
+    <header id="home" data-scroll-index="0">
+        <div class="mary-hero js-fullheight">
+            <div class="flexslider js-fullheight">
+                <ul class="slides">
+                    <li class="bg-fixed" style="background-image: url(images/_RMS3674.jpg);" data-overlay-dark="2"
+                        id="icon">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center js-fullheight slider-text">
+                                    <div class="slider-text-inner mx-auto">
+                                        <h2>Caro & Danny</h2>
+                                        <h6>06 Abril, 2024 — La Garita</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <!-- Welcome section -->
+    <div id="welcome" class="welcome section-padding"
+    style="background: url(images/HOJAS-Y-FLORES-01.png) ; background-size:20%; background-repeat: no-repeat; background-position: bottom left;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="welcome-mt">
+                        <div class="welcome-image-wrapper">
+                            <div class="img">
+                                <a href="#" data-scroll-nav="1"><img src="images/_RMS3728.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h6 class="section-subtitle">Hola & Bienvenido</h6>
+                    <h2 class="section-title">¡Nos vamos a casar!</h2>
+                    <p>"Nos complace que sean parte de esta nueva etapa de nuestras vidas, esperamos que nos puedan
+                        acompañar en este día tan especial"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Countdown section -->
+    <div id="countdown" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/_RMS3546.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h6>Nos convertiremos en una familia en</h6>
+                    <h2>Nos casaremos en</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li><span id="days"></span>Días</li>
+                        <li><span id="hours"></span>Horas</li>
+                        <li><span id="minutes"></span>Minutos</li>
+                        <li><span id="seconds"></span>Segundos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Gallery section -->
+    <div id="gallery" class="section-padding bg-cream" data-scroll-index="5" 
+    style="background: url(images/FLORES-02.png) ; background-size:21%; background-repeat: no-repeat; background-position: top right;" >
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6 class="section-subtitle">Galería</h6>
+                    <h2 class="section-title">Sesión de compromiso</h2>
+                </div>
+            </div>
+            <div class="row gallery-filter">
+                <div class="col-md-4 gallery-item ceremony">
+                    <a href="images/gallery/1.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/_RMS3562.jpg" class="img-fluid mx-auto d-block"
+                                    alt=""> </div>
+                            <div class="gallery-detail">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item party">
+                    <a href="images/gallery/2.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/_RMS3728.jpg" class="img-fluid mx-auto d-block"
+                                    alt=""> </div>
+                            <div class="gallery-detail">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item ceremony">
+                    <a href="images/gallery/3.jpg" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img"> <img src="images/_RMS3549.jpg" class="img-fluid mx-auto d-block"
+                                    alt=""> </div>
+                            <div class="gallery-detail">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+    </div>
+    <!-- Banner section -->
+    <div id="banner" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/_RMS3667.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h6>Agenda la fecha</h6>
+                    <h2>¡Espero verte!</h2>
+                    <h1>06.04.2024</h1>
+                    <h1><i class="ti-heart"></i></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div id="banner" class="section-padding bg-img bg-fixed" data-overlay-dark="1"
+        data-background="images/_RMS3635.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="section-head col-md-12">
+                    <h2>Corintios 13:7</h2>
+                    <br>
+                    <h6>El amor nunca se da por vencido, jamás pierde la fé, siempre tiene esperanza y se mantiene
+                        firme
+                        en toda circunstancia.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- When & Where section -->
+    <div id="whenwhere" class="when-where section-padding" data-scroll-index="6"
+    style="background: url(images/FLORES-02.png) ; background-size:21%; background-repeat: no-repeat; background-position: top right;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle">Agenda la fecha</h6>
+                    <h2 class="section-title">Cuándo y Dónde?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                    <div class="img left">
+                        <img src="images/_RMS3468.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 valign animate-box" data-animate-effect="fadeInRight">
+                    <div class="content">
+                        <div class="date">
+                            <h3>06</h3>
+                            <h6>Abril 2024</h6>
+                        </div>
+                        <div class="cont">
+                            <div class="info">
+                                <h6>¿Estás preparado?</h6>
+                            </div>
+                            <h4>Ceremonia de boda</h4>
+                            <ul class="list-unstyled cont-list">
+                                <li>
+                                    <div class="icon"> <span class="ti-location-pin"></span> </div>
+                                    <div class="text">
+                                        <p>Iglesia de La Garita
+                                            <br>San Pedro Apóstol
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"> <span class="ti-time"></span> </div>
+                                    <div class="text">
+                                        <p>3:30 pm</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-brands fa-waze" style="color: #b08c3e;"></i>
+                                    </div>
+                                    <div class="text">
+                                        <a href="https://waze.com/ul/hd1u0c74sb" style="color: #898989;"
+                                            target="_blank">Haz clic aquí
+                                            para la dirección en Waze!</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+        </div>
+    </div>
+    <div id="whenwhere" class="when-where section-padding" data-scroll-index="6"
+    style="background: url(images/FLORES-03.png) ; background-size:18%; background-repeat: no-repeat; background-position: top left;">
+    <br>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 order2 valign animate-box" data-animate-effect="fadeInLeft">
+                    <div class="content">
+                        <div class="date">
+                            <h3>06</h3>
+                            <h6>Abril 2023</h6>
+                        </div>
+                        <div class="cont">
+                            <div class="info">
+                                <h6>¿Estás preparado?</h6>
+                            </div>
+                            <h4>Recepción</h4>
+                            <ul class="list-unstyled cont-list">
+                                <li>
+                                    <div class="icon"> <span class="ti-location-pin"></span> </div>
+                                    <div class="text">
+                                        <p>Villa Lago
+                                            <br>La Garita, Alajuela
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon"> <span class="ti-time"></span> </div>
+                                    <div class="text">
+                                        <p>5:00 pm</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-brands fa-waze" style="color: #b08c3e;"></i>
+                                    </div>
+                                    <div class="text">
+                                        <a href="https://waze.com/ul/hd1u0c4pmb" style="color: #898989;"
+                                            target="_blank">Haz clic aquí
+                                            para la dirección en Waze!</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order1 animate-box" data-animate-effect="fadeInRight">
+                    <div class="img">
+                        <img src="images/_RMS3635.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <!-- Dress Code section -->
+    <div id="outfit" class="bride-groom clear section-padding bg-cream" data-scroll-index="3" 
+    style="background: url(images/HOJAS-02.png) ; background-size:14%; background-repeat: no-repeat; background-position: top right;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30 animate-box" data-animate-effect="fadeInUp">
+                    <h6 class="section-subtitle">Código de Vestimenta</h6>
+                    <h2 class="section-title">Formal</h2>
+                </div>
+                <div class="col-md-4 offset-md-2 text-center animate-box" data-animate-effect="fadeInLeft">
+                    <div class="item mb-30">
+                        <div class="img"> <img src="images/dress.png" alt=""> </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center animate-box" data-animate-effect="fadeInRight">
+                    <div class="item mb-30">
+                        <div class="img"> <img src="images/suit.png" alt=""> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="outfit" class="bride-groom clear section-padding bg-cream" data-scroll-index="3" 
+    style="background: url(images/HOJAS-Y-FLORES-01.png) ; background-size:20%; background-repeat: no-repeat; background-position: bottom left;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30 animate-box">
+                    <p>Tipo de Vestimenta: Formal</p>
+                    <br>
+                    <p> Agradecemos mucho <br>No usar: vestidos color verde, rojo o cortos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Banner section -->
+    <!-- RSVP Form section -->
+    <div id="rsvp" class="rsvp section-padding bg-img bg-fixed" data-background="images/_RMS3659.jpg"
+        data-scroll-index="7">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 bg-white p-60">
+                    <h2 class="text-center">Hemos reservado 2 <br>espacios para ti</br></h2>
+                    <h6 class="text-center">Favor confirmar antes del 15 de marzo del 2024</h6>
+                    <h6 class="text-center" style="font-size: larger; color: #666;">
+                        Número de confirmación de asistencia:
+                        <br>
+                        <br>
+                        Danny: 8330-0988
+                        <br>
+                        <br>
+                        Carolina: 8763-4317
+                        </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gift Registry section -->
+    <div id="gift" class="gift-registry" data-scroll-index="8"
+    style="background: url(images/FLORES-02.png) ; background-size:14%; background-repeat: no-repeat; background-position: top right;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6 class="section-subtitle">Regalos</h6>
+                    <div class="text">
+                        <p>Tipo de Regalos
+                        </p>
+                        <p> - Lluvia de Sobres</p>
+                        <p> - Transferencia</p>
+                        <br>
+                        <p>Si así lo prefieres puedes realizar transferencia a nombre de: </p>
+
+
+                    </div>
+                    <!-- <h2 class="section-title">Con su asistencia estaríamos más que agradecidos pero si quieren obsequiarnos algo más pueden hacer una transferencia bancaria.</h2>-->
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <div id="gift" class="gift-registry" data-scroll-index="8"
+    style="background: url(images/FLORES-03.png) ; background-size:20%; background-repeat: no-repeat; background-position: bottom left;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="">
+                        <h6 class="section-subtitle">Depósito SINPE Móvil</h6>
+                        <p>87634317<br>
+                            Nombre: Carolina Ochoa Salazar <br>
+                        <p><br>
+                    </div>
+                    <div class="">
+                        <h6 class="section-subtitle">Cuenta Colones</h6>
+                        <p>Número de cuenta BAC: 938857547 <br>
+                            Número de cuenta IBAN: CR78010200009388575477<br>
+                            Titular: Carolina Ochoa Salazar <br>
+                        <p><br>
+                    </div>
+                    <div class="">
+                        <h6 class="section-subtitle">Cuenta Dolares</h6>
+                        Número de cuenta BAC: 938857539 <br>
+                        Número de cuenta IBAN: CR88010200009388575394<br>
+                        Titular: Carolina Ochoa Salazar<br>
+                        <p><br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="rsvp2" class="rsvp section-padding bg-img bg-fixed" data-background="images/_RMS3549.jpg"
+        data-scroll-index="9">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 bg-white p-60">
+                    <h2 class="text-center">Nota</br></h2>
+                    <br>
+                    <h6 class="text-center" style="font-family: Didact Gothic; font-size: large;">
+                        Para el descanso de los niños y el disfrute de los padres, este evento es solo para adultos.
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Footer section -->
+    <footer id="footer">
+        <div class="container">
+            <div class="top-footer">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="section-padding">
+                            <h2><span>Caro <small>&amp;</small> Danny</span></h2>
+                            <h6>06 ABRIL 2024, La Garita</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>Nos gustaría que nos acompañes en este día tan especial</p>
+                    </div>
+                </div>
+            </div>
+            <!--                 <div>
+                    <audio controls autoplay>
+                        <source src="mp3/magia.mp3" type="audio/mpeg">
+                    </audio>
+                </div> -->
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/sticky-kit.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/template.js"></script>
+    <script src="https://kit.fontawesome.com/6c8475625a.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
